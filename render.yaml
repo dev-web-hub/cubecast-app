@@ -1,8 +1,9 @@
 services:
   - type: web
     name: cubecast-app
-    env: node
+    env: go
+    region: oregon
+    buildCommand: go build -o app .
+    startCommand: ./app
     plan: starter
-    buildCommand: "npm install"
-    startCommand: "npm start"
     autoDeploy: true
