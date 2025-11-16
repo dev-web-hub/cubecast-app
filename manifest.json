@@ -1,0 +1,7 @@
+{
+  "site": "cubecast_app",
+  "description": "Staged Render site for cubecast_app",
+  "render_base_url": null,
+  "deploy_hook": null,
+  "last_sync": null
+}
